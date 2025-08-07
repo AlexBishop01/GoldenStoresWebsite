@@ -1,44 +1,37 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fdfdfd;
+    background-color: #fffef8;
     color: #333;
   }
   
   header {
-    background-color: #fff8e1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff7dd;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
   }
   
   .logo {
     display: flex;
     align-items: center;
+    gap: 1rem;
   }
   
   .logo img {
-    height: 60px;
-    margin-right: 15px;
+    height: 50px;
   }
   
-  .logo h1 {
-    font-size: 1.8em;
-    color: #b8860b;
+  h1 {
+    color: #b68c1a;
+    font-size: 1.8rem;
     margin: 0;
   }
   
-  nav a {
-    margin-left: 25px;
-    text-decoration: none;
-    color: #555;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #b8860b;
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #333;
   }
   
   .hero {
@@ -47,38 +40,48 @@ body {
     background: linear-gradient(to bottom right, #fff8e1, #fff3cd);
   }
   
-  .hero h2 {
-    font-size: 2.8em;
-    margin-bottom: 20px;
-    color: #b8860b;
+  .store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
   }
   
-  .hero p {
-    font-size: 1.2em;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-  }
-  
-  .hero button {
-    background-color: #b8860b;
+  .store-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #e53238; /* eBay red */
     color: white;
-    border: none;
-    padding: 12px 30px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
   }
   
-  .hero button:hover {
-    background-color: #a0760c;
+  .store-button img {
+    height: 20px;
+  }
+  
+  .store-button:hover {
+    background-color: #c22126;
+  }
+  
+  .mission-small {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin: 2rem auto 0;
+    color: #555;
   }
   
   footer {
     text-align: center;
-    padding: 30px;
+    padding: 1rem;
     background-color: #f4f4f4;
-    margin-top: 80px;
-    font-size: 0.9em;
-    color: #777;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 3rem;
   }
   
